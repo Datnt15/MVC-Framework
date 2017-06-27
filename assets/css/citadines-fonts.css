@@ -1,0 +1,134 @@
+@font-face {
+	font-family: 'FrizQuadrataTT';
+	src: url('hinted-FrizQuadrataTT.eot');
+	src: local('Friz Quadrata TT'), local('FrizQuadrataTT'),
+		url('hinted-FrizQuadrataTTd41d.eot?#iefix') format('embedded-opentype'),
+		url('hinted-FrizQuadrataTT.html') format('woff2'),
+		url('hinted-FrizQuadrataTT-2.html') format('woff'),
+		url('hinted-FrizQuadrataTT.ttf') format('truetype'),
+		url('hinted-FrizQuadrataTT.svg#FrizQuadrataTT') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UTMEssendineCaps';
+	src: url('UTMEssendineCaps.eot');
+	src: local('UTM Essendine Caps'), local('UTMEssendineCaps'),
+		url('UTMEssendineCapsd41d.eot?#iefix') format('embedded-opentype'),
+		url('UTMEssendineCaps.html') format('woff'),
+		url('UTMEssendineCaps.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'UTMGodsWord';
+    src: url('utm_gods_wordr-webfont.html') format('woff2'),
+         url('utm_gods_wordr-webfont-2.html') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+	font-family: 'San Francisco Display';
+	src: url('SanFranciscoDisplay-Light.eot');
+	src: url('SanFranciscoDisplay-Lightd41d.eot?#iefix') format('embedded-opentype'),
+		url('SanFranciscoDisplay-Light.html') format('woff'),
+		url('SanFranciscoDisplay-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'San Francisco Display';
+	src: url('SanFranciscoDisplay-Bold.eot');
+	src: url('SanFranciscoDisplay-Boldd41d.eot?#iefix') format('embedded-opentype'),
+		url('SanFranciscoDisplay-Bold.html') format('woff'),
+		url('SanFranciscoDisplay-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'San Francisco Display';
+	src: url('SanFranciscoDisplay-Thin.eot');
+	src: url('SanFranciscoDisplay-Thind41d.eot?#iefix') format('embedded-opentype'),
+		url('SanFranciscoDisplay-Thin.html') format('woff'),
+		url('SanFranciscoDisplay-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'San Francisco Display';
+	src: url('SanFranciscoDisplay-Regular.eot');
+	src: url('SanFranciscoDisplay-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('SanFranciscoDisplay-Regular.html') format('woff'),
+		url('SanFranciscoDisplay-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'SanFranciscoDisplay-Thin';
+    src: url('sanfranciscodisplay-thin-webfont.html') format('woff2'),
+         url('sanfranciscodisplay-thin-webfont-2.html') format('woff'),
+         url('sanfranciscodisplay-thin-webfont.ttf') format('truetype'),
+         url('sanfranciscodisplay-thin-webfont.svg#san_francisco_displaythin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'SanFranciscoDisplay-Light';
+	src: url('hinted-SanFranciscoDisplay-Light.eot');
+	src: local('San Francisco Display Light'), local('SanFranciscoDisplay-Light'),
+		url('hinted-SanFranciscoDisplay-Lightd41d.eot?#iefix') format('embedded-opentype'),
+		url('hinted-SanFranciscoDisplay-Light.html') format('woff'),
+		url('hinted-SanFranciscoDisplay-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: "SanFranciscoDisplay-Regular";
+       
+	src: url('hinted-SanFranciscoDisplay-Regular.eot');
+	src: local('San Francisco Display Regular'), local('SanFranciscoDisplay-Regular'),
+		url('hinted-SanFranciscoDisplay-Regulard41d.eot?#iefix') format('embedded-opentype'),
+		url('hinted-SanFranciscoDisplay-Regular.html') format('woff'),
+		url('hinted-SanFranciscoDisplay-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+        
+}
+@font-face {
+	font-family: "SanFranciscoDisplay-Bold";
+	src: url("SanFranciscoDisplay-Semibold.eot"); /* IE9 Compat Modes */
+	src: url("SanFranciscoDisplay-Semiboldd41d.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("SanFranciscoDisplay-Semibold.html") format("opentype"), /* Open Type Font */
+	url("SanFranciscoDisplay-Semibold.svg") format("svg"), /* Legacy iOS */
+	url("SanFranciscoDisplay-Semibold.ttf") format("truetype"), /* Safari, Android, iOS */
+	url("SanFranciscoDisplay-Semibold-2.html") format("woff"), /* Modern Browsers */
+	url("SanFranciscoDisplay-Semibold-3.html") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+  /*
+	src: url('sanfranciscodisplay-semibold-webfont.woff2') format('woff2'),
+         url('sanfranciscodisplay-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	*/
+	/*
+	src: url('hinted-SanFranciscoDisplay-Bold.eot');
+	src: local('San Francisco Display Bold'), local('SanFranciscoDisplay-Bold'),
+		url('hinted-SanFranciscoDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+		url('hinted-SanFranciscoDisplay-Bold.woff') format('woff'),
+		url('hinted-SanFranciscoDisplay-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	*/
+}
+
+

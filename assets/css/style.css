@@ -1,0 +1,2584 @@
+.alignnone {
+    /*
+    margin: 5px 20px 20px 0;
+    */
+}
+
+.aligncenter,div.aligncenter {
+    display: block;
+    margin: 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%;
+    /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+@font-face {
+	font-family: 'Elle Futura';
+	src:url('../fonts/elle-futura-book.eot');
+	src:url('../fonts/elle-futura-book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/elle-futura-book.woff') format('woff'),
+		url('../fonts/elle-futura-book.ttf') format('truetype'),
+		url('../fonts/elle-futura-book.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px,1px,1px,1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-weight: 700;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+
+/*END; wp-cores*/
+/** Global **/
+a,a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #188738
+}
+
+img.alignleft,img.alignright {
+    padding-top: 5px;
+}
+
+img.alignright {
+    padding-left: 10px;
+    float: right;
+}
+
+img.alignleft {
+    padding-right: 10px;
+    float: left;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 1em;
+}
+
+.alignright {
+    float: right;
+    margin-left: 1em;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+.noborder {
+    border: none !important;
+}
+
+.clear {
+    clear: both;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.nopadding-l {
+    padding-left: 0 !important;
+}
+
+.nopadding-r {
+    padding-right: 0 !important;
+}
+.hide{display:none;}
+.hidden{display:none;}
+.show{display:block;}
+body *{
+    outline: 0 !important;
+    -webkit-appearance: none !important;
+}
+
+input[type="text"]
+{
+    padding-left: 3px;
+}
+input[type="button"],
+input[type="submit"]
+{
+
+}
+.full-height
+{
+    height: 100% !important;
+}
+.full-width
+{
+    width: 100% !important;
+}
+.parentbox {
+    width: inherit;
+    display: inline-block;
+    font: 0/0 a;
+}
+.parentbox:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.childbox {
+    display: inline-block;
+    vertical-align: middle;
+    width: inherit;
+    font: 13px;
+	font-family: "Elle Futura";
+}
+.vertical-line-1
+{
+    left: 33.33%;
+}
+.vertical-line-2
+{
+    left: 66.66%;
+}
+#LoadingImage {
+    text-align: center;
+    z-index: 2221100;
+    vertical-align: middle;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.85);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+/** Element **/
+body {
+    margin: 0 !important;
+    background: #937D64;
+    color: #000;
+    line-height: 20px;
+    margin:0px;
+    padding:0px;
+    font-family: "Elle Futura";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 23px;
+}
+.wrapper
+{
+    width:100%;
+}
+.post-content
+{
+
+}
+#header
+{
+    position: fixed;
+    top:0;
+    left:0;
+    height: 71px;
+    float: left;
+    z-index: 1;
+}
+header #burger-menu
+{
+    width: 56px;
+    height: 100%;
+    background: rgba(42,38,32,0.86) url(../images/burger-menu.png) center center no-repeat;
+    border-right: 1px solid #B99C7C;
+    border-bottom: 1px solid #B99C7C;
+    float: left;
+}
+header #burger-menu > a
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-indent: -9999px;
+}
+header #logo
+{
+    float:left;
+    width: 155px;
+    margin: 0;
+}
+header #logo a
+{
+    display: block;
+    text-align: center;
+    width: inherit;
+}
+header #logo img
+{width: 52%;}
+
+header #logo.small-logo
+{
+    margin: 0px;
+    height: 100%;
+    background-color: rgba(42,38,32,0.08);
+    border-right: 1px solid #B99C7C;
+    border-bottom: 1px solid #B99C7C;
+    width: 120px;
+}
+header #logo.small-logo a
+{
+    height: 100%;
+    text-align: center;
+}
+
+footer
+{
+    width:100%;
+    background-color: #130E11;
+    position: fixed;
+    bottom: 0px;
+    height: 35px;
+    z-index:1000;
+    padding: 6px 25px 10px 34px;
+}
+
+footer a,footer a:visited {color: #BDAF9E;opacity: 0.3;}
+footer ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    height: 100%;
+    display: block;
+}
+footer ul li
+{
+    display: inline-block;
+    /* width:40px; */
+}
+footer .footer-left-menu 
+{
+    float:left;
+    font-size:13px;
+    line-height:15px;
+    height: 100%;
+    padding-top: 4px;
+}
+#social-menu
+{
+    margin-left: 20px;
+}
+footer .footer-left-menu .footer-menu
+{
+    float:left;
+}
+footer .footer-left-menu li
+{
+    text-align: center;
+}
+footer .footer-left-menu li a
+{
+    display:block;
+
+}
+footer #language-menu li.current a
+{
+    opacity:1;
+    font-family: "Elle Futura";    
+}
+footer #language-menu li:not(:first-child) a:before
+{
+    content: "/";
+}
+footer .footer-right-menu
+{
+    float:right;
+    height: 100%;
+}
+
+footer #social-menu  li
+{
+    margin:0;
+    padding: 0;
+    width: 30px;
+    text-align: center;
+}
+footer .footer-right-menu a
+{
+    text-transform:uppercase;
+    display: block;
+    padding: 0 6px;
+    color: #BDAF9E;
+    opacity:0.3;
+    font-size:13px;
+    line-height:16px;
+}
+footer .footer-right-menu li
+{
+   
+}
+footer .footer-right-menu li:not(:first-child)
+{
+    border-left: rgba(189, 175,158,0.3) 1px solid;
+    
+}
+footer .footer-right-menu ul ul
+{
+    display:none;
+}
+
+footer .facebook
+{
+    background: url(../images/footet_icon_facebook.png) center center no-repeat;
+}
+footer .email
+{
+    background: url(../images/footet_icon_mail.png) center center no-repeat;
+}
+footer  .phone
+{
+    background: url(../images/footet_icon_phone-3.png) center center no-repeat;
+}
+footer .icon
+{
+    /* width: 30px; */
+}
+footer .icon a
+{
+    padding: 0px;
+    /* border: #F00 1px solid; */
+    /* margin-left: 21px; */
+    /* display: block; */
+    /* width: 21px; */
+}
+
+/** Slider */
+.slick-slide, 
+.slick-current, 
+.slick-active
+{
+    z-index: 1 !important;
+}
+.slider-button {
+    width: 24px;
+    height: 47px;
+    border: none;
+    color: #896F33;
+    cursor: pointer;
+    top: 46%;
+    position: absolute;
+    z-index: 2;
+}
+.slider-button-prev {
+    left: 0px!important;
+    background: url(../images/slider-button-prev-bg-24x47.png) center center no-repeat;
+    /* right: -3.33%; */
+}
+
+.slider-button-next {
+    right: 0px !important;
+    background: url(../images/slider-button-next-bg-24x47.png) center center no-repeat;
+}
+/** END: Slider */
+
+
+/*HOME*/
+.fullpage-nav
+{
+    position: fixed;
+    top: 0;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background: transparent;
+    z-index:999;
+}
+.fullpage-nav ul
+{
+    padding:0px;
+    text-align: center;
+    list-style: none;
+}
+.fullpage-nav ul > li
+{
+    margin: 30px 0px;
+    display: block;
+}
+.fullpage-nav ul > li button
+{
+    font-size: 0;
+    line-height: 0;
+    width: 7px;
+    height: 7px;
+    padding: 1px;
+    cursor: pointer;
+    border: 1px solid #D4AD71;
+    border-radius: 50%;
+    background: #D4AD71;
+    position: absolute;
+}
+.fullpage-nav ul > li.active button
+{
+    padding: 6px;
+    cursor: default;
+    border: 2px solid #FFF;    
+    background: #B99C7C;
+}
+.fullpage-nav ul > li a,
+.fullpage-nav ul > li a:visited
+{
+    visibility: hidden;
+}
+.nav-line
+{
+    position: absolute;
+    width: 1px;
+    background: #B99C7C;
+    height: 100%;
+}
+.nav-line-right
+{
+    right: 30px;
+}
+.fullpage-nav-right
+{    
+    right: 0;
+}
+.fullpage-nav-right ul > li button
+{
+    right: 27px;
+}
+.fullpage-nav-right ul > li.active button
+{
+    right: 23px;
+}
+.section
+{
+    margin:0px !important;
+    padding: 0px !important;
+    background-color: #937D64;
+    position: relative;
+}
+.section .vertical-line
+{
+    width:1px;
+    height: 100%;
+    position:absolute;
+    top:0;
+    background-color: #FFF;
+    opacity: 0.07;
+}
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+.slick-slider
+{
+    -moz-user-select: text; 
+    cursor: auto !important; 
+    -webkit-user-select: auto !important; 
+    -moz-user-select: auto !important;
+}
+.full-height-slider .slick-list,
+.full-height-slider .slick-list .slick-track,
+.full-height-slider .slick-list .slick-track .slick-slide
+{
+    height: 100% !important;
+}
+.responsive-background
+{    
+    background-size: cover;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100%;
+    width:100%;
+}
+
+/**Home Section*/
+.section-wrapper
+{
+    width:100%;
+    height: 100%;
+    position:relative;
+}
+.section-content
+{
+    position:relative;
+}
+.section-text .post-title
+{
+    font-family: "Elle Futura";
+    font-size: 87px;
+    line-height: 122px;
+    color: #FFF;
+    opacity: 0.09;
+    letter-spacing: 4px;
+}
+.section-text .post-title .post-title-by-image
+{
+    opacity: 1;
+}
+.section-text img
+{
+    max-width: 100%;
+}
+#fullpage .fullpage-screen-scrolling
+{
+    position: relative;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+#fullpage .fullpage-screen-scrolling img
+{
+    cursor: pointer;
+}
+#fullpage .section-content img
+{
+    max-width: 100%;
+}
+
+#fullpage .section-header
+{
+    width:100%;
+    text-align: center;
+}
+#fullpage .section-header .section-name
+{
+    font-family: "Elle Futura";
+    font-size: 32px;
+    color: #FFF;
+}
+/*Section Tong quan*/
+#section-tong-quan-wrapper .general-solgan
+{
+    font-family: "Elle Futura";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38px;
+    text-shadow: 0 0 3px #44273A;
+    color: #FFF;
+    padding: 0 0 0 115px;
+    margin: 0;
+}
+#section-tong-quan-wrapper .background-general-solgan
+{
+    font-family: "Elle Futura";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38px;
+    text-shadow: 1px 1px 3px #D8B47B;
+    color: #FFF;
+    padding: 0 0 0 115px;
+    margin: 0;
+    position: absolute;
+    top: 90px;
+    left: -115px;
+    text-align: center;
+    z-index: 2;
+}
+#section-tong-quan-wrapper .slick-list,
+#section-tong-quan-wrapper .slick-list .slick-track,
+#section-tong-quan-wrapper .slick-list .slick-track .slick-slide
+{
+    height: 100% !important;
+}
+#section-tong-quan-wrapper .section-text
+{
+    padding-left: 19%;
+    position: absolute;
+    top: 0px;
+}
+.section-slider .section-tong-quan-slick-dots
+{
+    position: absolute;
+    bottom: 132px;
+    width: 100%;
+    padding: 0;
+    margin: 0px;
+    z-index:999;
+    text-align: center;
+}
+.section-slider .section-tong-quan-slick-dots li
+{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    list-style-type: none;
+    cursor: pointer;
+}
+.section-slider .section-tong-quan-slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;    
+    width: 12px;
+    height: 12px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid #D4AD71;
+    border-radius: 7px;
+    background: transparent;
+}
+.section-slider .section-tong-quan-slick-dots li.slick-active button
+{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    background: #FFF;
+    margin: -2px;
+}
+/*END: Section Tong quan*/
+
+.complex-title
+{
+    position: relative;
+    display: block;
+    /* left: -90px; */
+    height: 122px;
+    position: relative;
+}
+.complex-title .background-title
+{
+    font-family: "Elle Futura";
+    font-size: 87px;
+    height: 100%;
+    color: #FFF;
+    line-height: 122px;
+    /* height: 122px; */
+    letter-spacing: 4px;
+    opacity: 0.1;
+}
+
+.complex-title .subtitle-1
+{
+    font-family: "Elle Futura";
+    background: url(../images/subline.png) left 32px no-repeat;
+    color: #FFF;
+    position: absolute;
+    bottom: 0px;
+    padding-left: 54px;
+    margin-left: 50px;
+    text-shadow: 2px 2px 9px rgba(56,48,39,0.31);
+    font-size: 32px;
+    line-height: 39px;
+    text-transform:uppercase;
+    width: 600px;
+    overflow: hidden;
+    /* z-index: 99999; */
+}
+
+.complex-title .subtitle-2
+{
+    font-family: "Elle Futura";
+    font-size: 24px;
+    font-weight: 300;
+    color: #FFF;
+    position: absolute;
+    /* top: 50%; */
+    /* margin-top: -29px; */
+    left: 50px;
+    text-shadow: 1px 1px rgba(56,48,39,0.51);
+    height: 122px;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+.complex-title-top .subtitle-1
+{
+    bottom: -60px;
+}
+/*Section Tien ich*/
+#section-tien-ich-wrapper .vertical-line-1
+{
+    left: 40%;
+}
+#section-tien-ich-wrapper .vertical-line-2
+{
+    left: 80%;
+}
+#section-tien-ich-wrapper .complex-title
+{
+    margin-left: -50px;
+}
+#section-tien-ich-wrapper .section-text
+{
+    padding-left: 20%;
+    width: 100%;
+    color: #FFF;
+}
+#section-tien-ich-wrapper .post-title
+{
+    margin-top: -30%;
+}
+#section-tien-ich-wrapper .post-content
+{
+    padding: 38px 38px 38px 0px;
+    line-height: 23px;
+}
+
+#section-tien-ich-wrapper .list-tien-ich-nav
+{
+    width: 100%;
+    bottom: 7%;
+    z-index:2;
+    float:left;
+    position:absolute;
+    left: 0px;
+}
+#section-tien-ich-wrapper .list-tien-ich-nav .list-tien-ich-nav-wrapper
+{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center !important;
+}
+#section-tien-ich-wrapper .list-tien-ich-nav .item-tien-ich
+{
+    background-color: rgba(255,255,255,0.15);
+    border: 1px solid #AFA089;
+    border-radius: 5px;
+    margin: 0px auto;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+#section-tien-ich-wrapper .list-tien-ich-nav .item-tien-ich:hover{
+    background-color: #B99C7C;
+}
+
+#section-tien-ich-wrapper .slick-list,
+#section-tien-ich-wrapper .slick-list .slick-track,
+#section-tien-ich-wrapper .slick-list .slick-track .slick-slide
+{
+    height: 100% !important;
+}
+#section-tien-ich-wrapper .slider-button
+{
+    width: 24px;
+    height: 47px;
+}
+#section-tien-ich-wrapper .slider-button-next
+{
+    right:-36px !important;
+    top:30%;
+    background: url(../images/slider-button-next-bg-24x47.png) center center no-repeat;
+}
+#section-tien-ich-wrapper .slider-button-prev
+{
+    left:-36px !important;
+    top:30%;
+    background: url(../images/slider-button-prev-bg-24x47.png) center center no-repeat;
+}
+#section-tien-ich-wrapper .slick-current .item-tien-ich
+{
+    background-color: #B99C7C;
+    box-shadow: 0 2px 25px 3px rgba(175,160,137,0.35);
+    font-weight: bold;
+}
+#section-tien-ich-wrapper .item-tien-ich .item-avatar
+{
+    /* display: inline-block; */
+    /* padding-top: 4px; */
+    height: 70px;
+}
+#section-tien-ich-wrapper .item-tien-ich .item-avatar img
+{
+    /* max-width: 100%; */
+    max-width: 45px;
+    height: auto;
+}
+#section-tien-ich-wrapper .item-tien-ich .item-title
+{
+    font-family: "Elle Futura";
+    font-size: 14px;
+    text-align: center;
+    line-height: 13px;
+    /* padding: 2px 0px; */
+    color: #FFFFFF;
+}
+#section-tien-ich-wrapper .item-tien-ich .item-title a
+{
+    color: #FFF;
+}
+/*END: Section Tien ich*/
+
+/*Section San pham*/
+.section-san-pham-wrapper .vertical-line-1
+{
+    left: 33.33%;
+}
+.section-san-pham-wrapper .vertical-line-2
+{
+    left: 66.66%;
+}
+.section-san-pham-wrapper .post-title
+{
+    left: 26%;
+    top:17%;
+    position: absolute;
+}
+.section-san-pham-wrapper .section-slider
+{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+}
+.section-san-pham-wrapper .autoplay-list-san-pham
+{
+    position: relative;
+}
+.section-san-pham-wrapper .section-slider-wrapper
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-san-pham-wrapper .section-slider-wrapper .slider-button-prev
+{
+    left:63% !important;
+}
+.section-san-pham-wrapper .section-slider-wrapper .slider-button-next
+{
+    left:63% !important;
+}
+
+
+.section-san-pham-wrapper .slick-list,
+.section-san-pham-wrapper .slick-list .slick-track,
+.section-san-pham-wrapper .slick-list .slick-track .slick-slide
+{
+    height: 100% !important;
+}
+
+.section-san-pham-wrapper .hinh-anh-san-pham
+{
+}
+.section-san-pham-wrapper .hinh-anh-san-pham .responsive-background
+{
+    width: 100%;
+    height: 54%;
+    position: absolute;
+    background-color: rgba(68,39,58,0.1);
+    box-shadow: 0 2px 35px 0 rgba(68,39,58,0.25);
+}
+.section-san-pham-wrapper .hinh-anh-san-pham img
+{
+    width:1px;
+    height: 1px;
+}
+.section-san-pham-wrapper .hinh-anh-san-pham .img-1
+{
+    top: 11%;
+    right:11%;    
+    height: 71%;
+	width: 56.25%;
+    background-color: linear-gradient(#AFA089,#AFA089); 
+}
+.section-san-pham-wrapper .hinh-anh-san-pham .img-2
+{
+    top: 23.5%;    
+    right:20%;
+    width:75%;
+    height:65.4%;
+}
+.section-san-pham-wrapper .noi-dung-san-pham
+{
+    width: 100%;
+    text-align: left;
+    color: #FFF;
+    line-height: 23px;
+}
+.section-san-pham-wrapper .noi-dung-san-pham .childpost-title
+{
+    margin-left:-50px;
+}
+
+.section-san-pham-wrapper .noi-dung-san-pham img
+{
+    max-width: 90%;
+}
+
+.section-san-pham-wrapper .childpost-content
+{
+    padding: 38px 0px;
+    line-height: 23px;
+    width: 75%;
+}
+.thuoc-tinh-san-pham
+{
+    padding-top: 16px;
+    line-height:22px;
+    
+}
+.thuoc-tinh-san-pham .row
+{
+
+}
+.thuoc-tinh-san-pham .label
+{
+    text-align: left;
+    padding-left: 20px !important;
+    line-height:22px;
+    font-family: "Elle Futura";
+    font-size:13px;
+}
+.thuoc-tinh-san-pham .chieu-cao-label
+{
+    background: url(../images/sanpham_icon_chieucao.png) left center no-repeat;
+}
+.thuoc-tinh-san-pham .loai-can-ho-label
+{
+    background: url(../images/sanpham_icon_matdoxaydung.png) left center no-repeat;
+}
+.thuoc-tinh-san-pham .mat-do-xay-dung-label
+{
+    background: url(../images/sanpham_icon_loaicanho.png) left center no-repeat;
+}
+
+.thuoc-tinh-san-pham .value
+{
+    font-family: "Elle Futura";
+    font-weight: bold;    
+}
+/*END: Section San pham*/
+
+/* Section Thu vien */
+.section-thu-vien-wrapper
+{
+    background-image: url(../images/bg-left-page.png);
+}
+.section-thu-vien-wrapper .complex-title .childbox
+{
+    width: 240px;
+}
+.section-thu-vien-wrapper .complex-title .subtitle-1
+{
+    /* margin-left: 0px; */
+    /* position: relative; */
+}
+.section-thu-vien-wrapper .section-header img
+{
+    max-height: 100px;
+}
+.section-thu-vien-wrapper .section-name
+{
+    text-transform: uppercase;
+}
+/*
+.section-thu-vien-wrapper .childpost-tab-content .tab-pane
+{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    margin-top: -141px;
+}*/
+.section-thu-vien-wrapper .childpost-nav-tab
+{
+    text-align: center;
+    width:100%;
+    margin: 0px auto;
+}
+.section-thu-vien-wrapper .childpost-nav-tab ul
+{
+    border:none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.section-thu-vien-wrapper .childpost-nav-tab ul li
+{
+    display:inline;
+    padding: 0px;
+}
+.section-thu-vien-wrapper .childpost-nav-tab ul li:not(:first-child) a
+{
+    border-left: #FFF 1px solid;
+}
+.section-thu-vien-wrapper .childpost-nav-tab a
+{
+    color: #FFF;
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-family: "Elle Futura";
+    font-size:16px;
+    padding: 0px 12px;
+}
+.section-thu-vien-wrapper .childpost-nav-tab a:hover,
+.section-thu-vien-wrapper .childpost-nav-tab li.active a
+{
+    border: none;
+    background: none;
+    opacity: 1;
+}
+
+.section-thu-vien-hinh-anh-wrapper .vertical-line-1{left: 16.66%;}
+.section-thu-vien-hinh-anh-wrapper .vertical-line-2{left: 33.32%;}
+.section-thu-vien-hinh-anh-wrapper .vertical-line-3{left: 49.98%;}
+.section-thu-vien-hinh-anh-wrapper .vertical-line-4{left: 66.64%;}
+.section-thu-vien-hinh-anh-wrapper .vertical-line-5{left: 83.30%;}
+
+.section-thu-vien-hinh-anh-wrapper .view-more
+{
+    position: absolute;
+    /* bottom: -10px; */
+    width: 100%;
+    text-align: center;
+    height: 30px;
+}
+.section-thu-vien-hinh-anh-wrapper .view-more a
+{
+	color: #B99C7C;
+	font-family: "Elle Futura";
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	background: #FFF;
+	padding: 13px 40px;
+}
+
+
+.section-thu-vien-hinh-anh-wrapper-1
+{
+    width: 50%;
+    margin: 0px auto;
+    height: 100%;
+    position: absolute;
+    top: 23.25%;
+    left: 25%;
+    z-index: 2;
+}
+.section-thu-vien-hinh-anh-wrapper-1 .autoplay
+{
+    box-shadow: 0 2px 35px 0 rgba(23,13,20,0.25);
+}
+.section-thu-vien-hinh-anh-wrapper-2
+{
+    width:66.66%;
+    margin: 0px auto;
+    position: absolute;
+    top: 29.82%;
+    left: 16.66%;
+    height: 100%;
+    z-index: 1;
+}
+.section-thu-vien-hinh-anh-wrapper-2 .autoplay
+{
+    background-color: rgba(68,39,58,0.1);
+    box-shadow: 0 2px 35px 0 rgba(22,12,19,0.25);
+}
+.section-thu-vien-hinh-anh-wrapper-detail-slideshow 
+{
+    width: 100%;
+    height: 63%;
+}
+
+.section-thu-vien-hinh-anh-wrapper .slick-list,
+.section-thu-vien-hinh-anh-wrapper .slick-list .slick-track,
+.section-thu-vien-hinh-anh-wrapper .slick-list .slick-track .slick-slide
+{
+    height: 100% !important;
+}
+
+.section-thu-vien-hinh-anh-wrapper .slider-button-next {
+    right: -60px !important;
+}
+.section-thu-vien-hinh-anh-wrapper .slider-button-prev {
+    left: -60px !important;
+}
+.ws_shadow{
+    background: url(../images/shadow.png) left 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 9px;
+    left: 0;
+    bottom: -9px;
+    z-index: -1;
+}
+
+
+.section-thu-vien-hinh-anh-wrapper-list-slideshow
+{
+    width: 100%;
+    height: 50%;
+}
+.section-thu-vien-hinh-anh-wrapper-list-slideshow .slider-inner
+{
+    /*border: 2px solid #C1C1C1;*/
+    height: 100%;
+    cursor: pointer;
+    opacity: 0.4;
+    box-shadow: 0 2px 35px 0 rgba(22,12,19,0.25);
+}
+.section-thu-vien-hinh-anh-wrapper-list-slideshow .slick-current .slider-inner
+{
+    border-color: #D8B47B;
+    opacity: 1;
+}
+.section-thu-vien-hinh-anh-wrapper-list-slideshow .slider-button-next
+{
+    right:-50px !important;
+}
+.section-thu-vien-hinh-anh-wrapper-list-slideshow .slider-button-prev
+{
+    left:-50px !important;
+}
+.section-thu-vien-wrapper .prev
+{
+    left:60px !important;
+}
+
+.section-thu-vien-wrapper .next
+{
+    right:60px !important;
+}
+.section-thu-vien-video-wrapper{
+}
+.section-thu-vien-video-wrapper .video-container{
+    width: 80%;
+    margin: 0px auto;
+    height: 50%;
+    background-color: #FFF;
+}
+.section-thu-vien-video-wrapper .section-thu-vien-video-wrapper-list-slideshow
+{
+   height: 250px;
+}   
+/* END: Section Thu vien */
+
+/* Section Tin tuc */
+
+.section-header .complex-title .subtitle-1-wapper
+{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    /* background:#F00; */
+}
+.section-header .complex-title .subtitle-1
+{
+    /* margin-left: 0px; */
+    /* position: relative; */
+    /* padding-left: 8px; */
+    /* bottom: -10px; */
+    /*line-height: 39px;*/
+    top: 16px;
+    /* left: 50%; */
+    /*transform: translate(-50%, -50%);*?
+    /*margin-left: 0;*/
+    padding: 0;
+    margin: 0;
+    position: relative;
+    line-height: 122px;
+    left: 0;
+    text-align: center;
+    width: auto;
+    padding-left: 50px;
+    height: 100%;
+}
+
+.section-tin-tuc-wrapper
+{
+    background-image: url(../images/bg-left-page.png);
+}
+.section-tin-tuc-wrapper .vertical-line-1{left: 16.66%;}
+.section-tin-tuc-wrapper .vertical-line-2{left: 33.32%;}
+.section-tin-tuc-wrapper .vertical-line-3{left: 49.98%;}
+.section-tin-tuc-wrapper .vertical-line-4{left: 66.64%;}
+.section-tin-tuc-wrapper .vertical-line-5{left: 83.30%;}
+#section-tin-tuc-wrapper .archive .archive-wrapper
+{
+    margin-top: -92px;
+}
+#section-tin-tuc-wrapper .archive img
+{
+    width: 100%;
+    display: none;
+}
+.section-tin-tuc-wrapper .post-see-detail
+{
+    float: right;
+    padding-right: 15px;
+    text-decoration: underline;  
+    margin-top: -12px;
+}
+#section-tin-tuc-wrapper .archive .view-more
+{
+	text-align: right;
+}
+#section-tin-tuc-wrapper .archive .view-more a
+{
+    color: #FFF;
+    font-family: "Elle Futura";
+    font-size: 14px;
+    line-height: 41px;
+    text-transform: uppercase;
+    padding: 30px 0px;
+}
+
+#section-tin-tuc-wrapper .archive .main-archive
+{
+	box-shadow: 0 2px 35px 0 rgba(0,0,0,0.25);
+}
+#section-tin-tuc-wrapper .archive .arcicle-cell
+{
+    height: 250px;
+    background: #FFF;
+    text-align: left;
+}
+
+#section-tin-tuc-wrapper .article
+{
+    background-color: #FFF;
+}
+#section-tin-tuc-wrapper .article.article-bottom
+{
+	position: absolute;
+	bottom: 35px;
+}
+#section-tin-tuc-wrapper .archive article
+{
+    padding-left: 35px;
+	padding-right: 35px;
+}
+#section-tin-tuc-wrapper .archive .title
+{
+    font-family: "Elle Futura";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: left;
+}
+#section-tin-tuc-wrapper .archive .title a
+{
+    color: #404040;
+}
+#section-tin-tuc-wrapper .post-date
+{
+    opacity: 0.75;
+    color: #444444;
+    font-family: "Elle Futura";
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0px 0px 0px 13px;
+    background: url(../images/icon_clock-3.png) left center no-repeat;
+}
+#section-tin-tuc-wrapper .post-content
+{
+    opacity: 0.75;
+    color: #000000;
+    font-family: "Elle Futura";
+    font-size: 14px;
+    line-height: 22px;
+    padding-top:10px;
+}
+/* END: Section Tin tuc */
+
+/* Section Lien He */
+.section-lien-he-wrapper .vertical-line-1{left:40%}
+.section-lien-he-wrapper .vertical-line-2{left:80%}
+.section-lien-he-wrapper .section-content
+{
+    padding: 10% 10% 0 10%;
+}
+.section-lien-he-wrapper .section-content .complex-title .subtitle-1
+{
+    margin-left: 10px;
+    top: 50%;
+    margin-top: -14px;
+}
+.section-lien-he-wrapper .post-content
+{
+    font-family: "Elle Futura";
+    font-weight: 300;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.section-lien-he-wrapper .post-content .contact-field 
+{
+    padding-left: 18px;
+}
+.section-lien-he-wrapper .post-content .contact-name
+{
+    opacity: 0.81;
+    font-family: "Elle Futura";
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 27px;
+    color: #FFF;
+}
+.section-lien-he-wrapper .post-content .contact-address
+{
+    background: url(../images/icon-location-21x27.png) left center no-repeat;
+}
+.section-lien-he-wrapper .post-content .contact-email
+{
+    background: url(../images/icon-send-21x27.png) left center no-repeat;
+}
+.section-lien-he-wrapper .post-content .contact-website
+{
+    background: url(../images/icon-link-21x27.png) left center no-repeat;
+}
+.section-lien-he-wrapper .post-content .contact-phone
+{
+    background: url(../images/icon-phone-21x27.png) left center no-repeat;
+}
+.section-lien-he-wrapper .post-content .contact-fax
+{
+    background: url(../images/icon-mail-21x27.png) left center no-repeat;
+}
+
+.section-lien-he-wrapper .contact-from
+{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.section-lien-he-wrapper .contact-from label
+{
+    /*padding: 0px;
+    margin:0px;
+    */
+}
+.section-lien-he-wrapper .contact-from .form-group
+{
+    margin-bottom:0px;
+}
+.section-lien-he-wrapper .contact-from label
+{
+    opacity: 0.8;
+    font-family: "Elle Futura";
+    font-size: 11px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-transform: uppercase
+}
+.section-lien-he-wrapper .contact-from input[type="text"],
+.section-lien-he-wrapper .contact-from textarea
+{
+    border:none;
+    opacity: 0.15;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: #937D64;
+    margin-bottom:0;
+    border-radius: 0;    
+}
+.section-lien-he-wrapper .contact-from input[type="text"]
+{
+    height: 22px;
+}
+.section-lien-he-wrapper .contact-from #txt_name
+{
+    width:85%;
+}
+
+.section-lien-he-wrapper .contact-from input[type="text"]:focus,
+.section-lien-he-wrapper .contact-from textarea:focus
+{
+    border-bottom: 1px solid #D4AD71;
+    opacity: 0.75;
+    box-shadow: none;
+}
+
+.section-lien-he-wrapper .contact-from .btn-send
+{
+    border-radius: 50%;
+    text-indent: -9999px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 18px 0 rgba(212,173,113,0.35);
+    background: #D4AD71 url(../images/icon-send-21x27.png) center center no-repeat;
+    margin-right: -12px;
+    margin-top: -10px;
+}
+
+
+/**END: Home Section*/
+#burger-logo
+{
+    padding: 6px;
+    text-align: center;
+}
+#burger-logo img
+{
+    width: 62.33%;
+}
+#main-nav
+{
+    height: 100%;
+    /*display: none;*/
+    position: fixed;
+    top:0;
+    left:0;
+    width: 16.666%;
+    z-index:9999;
+    display: block;
+    background-color: #937D64;
+}
+
+#main-nav .burger-close-button
+{
+    text-align: center;
+    text-indent:-9999px;
+    background: url(../images/icon-burger-close-32x32.png) center center no-repeat;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#main-nav .burger-close-button a
+{
+    display: block;
+    width: 15px;
+    height: 15px;
+}
+#main-nav .parentbox
+{
+    position: absolute;
+    top: 45px;
+    left: 0;
+}
+#main-nav ul.menu,
+#main-nav ul.menu li
+{
+    font-family: "Elle Futura";
+    font-weight: normal;
+    color:#FFF;
+    list-style-type: none;
+    text-align: center;    
+}
+
+#main-nav ul.menu,
+#main-nav ul.menu .sub-menu
+{
+    padding:0;
+    margin:0;
+}
+#main-nav ul.menu .sub-menu
+{
+    display: none;
+}
+#main-nav ul.menu li
+{
+    width:100%;
+}
+#main-nav ul.menu li a
+{
+    width:100%;
+    display: block;
+    color:#FFF;
+}
+#main-nav .parentbox
+{
+    /* margin-top: -138px; */
+}
+#main-nav ul.menu 
+{
+    /*margin-top: 50%;*/
+    margin-bottom: 50%;
+}
+#main-nav ul.menu > li
+{
+    padding: 0;
+}
+
+#main-nav ul.menu > li.has_children:hover ul.sub-menu
+{
+    /*display:block;*/
+}
+
+#main-nav ul.menu > li > a
+{
+    text-transform: uppercase;
+    font-size:16px;
+    line-height:19px;
+    padding: 15px 0px;
+}
+#main-nav ul.menu ul li
+{
+    padding: 0px 0px;
+}
+#main-nav ul.menu ul li a
+{
+    opacity: 0.6;   
+    font-size: 13px;
+    line-height: 22px;
+}
+/*Single*/
+#main.single
+{
+    background: url(../images/bg-left-page.png);
+    color: #FFF;
+}
+#main.single .single-left
+{
+    /* min-height: 100%; */
+}
+#main.single .single-left .single-left-wrapper
+{
+    position:fixed;
+}
+#main.single .single-left .complex-title
+{
+    margin-top: 168px;
+    position: relative;
+}
+#main.single .single-left .complex-title .subtitle-1
+{
+    height:122px;
+    display: flex;
+    align-items: center;
+    background: url(../images/subline-archive.png) left bottom no-repeat;
+    padding-left: 0px;
+    padding-top:16px;
+}
+
+#main.single .single-left-rooftop-skybar .subtitle-1,
+#main.single .single-left-tien-ich-ngoai-khu .subtitle-1,
+#main.single .single-left-spa-nha-hang .subtitle-1,
+#main.single .single-left-be-boi .subtitle-1
+{
+    /* margin-left: -20px; */
+}
+#main.single .single-right
+{
+    background-color: #FFF;    
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    color: #676767;
+    min-height: 768px;    
+}
+#main.single ul.child-post
+{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 50px;
+    margin-top: 30px;
+    /* position: fixed; */
+}
+#main.single ul.child-post a
+{
+    width: 100%;
+    font-family: "Elle Futura";
+    font-weight: 300;
+    color:#FFF;
+    text-transform: uppercase;    
+}
+#main.single ul.child-post li 
+{
+    padding:7px 0px;
+}
+#main.single ul.child-post li.active
+{
+    list-style-image: url(../images/icon-square-bullet-24x24.png);
+    list-style-position: inside;
+}
+
+#main.single ul.child-post li.active a
+{     
+    font-family: "Elle Futura";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+}
+#main.single .single-right .post-content
+{
+    padding: 50px 11.11% 10px 11.11%;
+    font-family: "Elle Futura";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    color: #676767;
+}
+
+#main.single .single-right .single-right-wrapper
+{
+    padding-top: 55px;
+}
+#main.single .single-right .single-right-wrapper .complex-title
+{
+    padding-left: 5.5%;
+}
+#main.single .single-right .single-right-wrapper .post-slider
+{
+    width: 100%;
+    height: 574px;
+    /* margin-top: -55px; */
+    /*margin-bottom: 55px;*/
+}
+
+#main.single .single-right .single-right-wrapper .post-slider .slider-button-next
+{
+    right: 45px !important;
+}
+#main.single .single-right .single-right-wrapper .post-slider .slider-button-prev
+{
+    left: 45px !important;
+}
+
+#main.single .single-right .single-right-wrapper .background-title
+{
+    opacity: 0.1;
+    font-family: "Elle Futura";
+    /* font-size: 64px; */
+    line-height: 122px;
+    letter-spacing: 4px;
+    color: #937D64;
+    text-shadow: none;
+}
+#main.single .single-right .single-right-wrapper .subtitle-1
+{
+    font-family: "Elle Futura";
+    font-size: 32px;
+    line-height: 43px;
+    color: #937D64;
+    padding-right: 60px;
+    top: 68%;
+    width: auto;
+    min-height: 90px;
+    text-shadow: none;
+}
+#main.single .single-right .single-right-wrapper .subtitle-2
+{
+    font-family: "Elle Futura";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    color: #937D64;
+    left: 110px;
+    text-shadow: none;
+}
+#main.single .post-content
+{
+
+}
+
+
+/*Product*/
+.product-section-slideshow-wrapper
+{
+
+}
+
+.product-section-slideshow-wrapper .slick-list,
+.product-section-slideshow-wrapper .slick-list .slick-track,
+.product-section-slideshow-wrapper .slick-list .slick-track .slick-slide
+{
+    height: 100% !important;
+}
+.product-section-slideshow-wrapper .section-text
+{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    color: #FFF;
+}
+.product-section-slideshow-wrapper .section-text .slider-title
+{
+    font-family: 'Elle Futura';
+    font-size: 36px;
+    text-align: center;
+    line-height: 48px;
+    padding-top: 15%;
+    padding-bottom: 10px;
+}
+
+.product-section-slideshow-wrapper .section-text .slider-content
+{
+    width: 50%;
+    margin: 0px auto;
+    font-family: "Elle Futura";
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    line-height: 23px;
+}
+.product-section-apartment-wrapper
+{
+    background-color: rgba(185,156,124,0.1);
+}
+.product-section-apartment-wrapper .slider-button
+{
+    width: 56px;
+    height: 56px;
+    background-color: #937D64;
+    border: 1px solid #C3AD8A;
+    /* Rotate div */
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    margin-left: -28px;
+    background-image: none;
+    top: 57%;
+}
+
+.product-section-apartment-wrapper .slider-button-prev
+{
+    left: 100% !important;
+    margin-top: 40px;
+}
+.product-section-apartment-wrapper .slider-button-prev:before
+{   
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background: url(../images/slider-button-prev-bg.png) center center no-repeat;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.product-section-apartment-wrapper .slider-button-next
+{
+    left: 100% !important;
+    margin-top: -40px;
+}
+.product-section-apartment-wrapper .slider-button-next:before
+{
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background: url(../images/slider-button-next-bg.png) center center no-repeat;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.product-section-apartment-wrapper .background-title
+{
+    padding-top: 10px;
+    margin-left: 0px;
+    font-size: 66px;
+}
+.product-section-apartment-wrapper .subtitle-2
+{
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.product-section-apartment-wrapper .subtitle-1
+{
+    background: none;
+    margin-left: 0px;
+    bottom: -56px;
+    font-family: 'Elle Futura';
+}
+.product-section-apartment-wrapper .childpost-content
+{
+    color: #FFF;
+    width: 73%;
+    padding-left: 5%;
+    padding-top: 60px;
+    line-height: 18px;
+}
+
+.product-section-amenities-wrapper
+{
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, #000000 100%), linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 34.54%, #000000 100%), linear-gradient(270deg, #000000 0%, rgba(0,0,0,0) 26.99%, rgba(0,0,0,0) 49%, rgba(0,0,0,0) 77.94%, #000000 100%);
+}
+
+.product-section-amenities-wrapper .section-header
+{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 111;
+}
+
+.product-section-amenities-wrapper .list-tien-ich-nav
+{
+    width: 100%;
+    bottom: 7%;
+    z-index:2;
+    float:left;
+    position:absolute;
+    left: 0px;
+}
+.product-section-amenities-wrapper .list-tien-ich-nav .list-tien-ich-nav-wrapper
+{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center !important;
+}
+.product-section-amenities-wrapper .list-tien-ich-nav .item-tien-ich
+{
+    background-color: rgba(255,255,255,0.15);
+    border: 1px solid #AFA089;
+    border-radius: 5px;
+    margin: 0px 6px;
+    cursor: pointer;
+}
+
+.product-section-amenities-wrapper .item-tien-ich .item-avatar
+{
+    display: inline-block;
+    padding-top: 4px;
+}
+.product-section-amenities-wrapper .item-tien-ich .item-avatar img
+{
+    max-width: 100%;
+    width: 60px;
+}
+.product-section-amenities-wrapper .item-tien-ich .item-title
+{
+    font-family: "Elle Futura";
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+    padding: 6px 0px;
+    color: #FFFFFF;
+}
+.product-section-amenities-wrapper .slider-button-next
+{
+    right:-36px !important;
+    top:30%;
+}
+.product-section-amenities-wrapper .slider-button-prev
+{
+    left:-36px !important;
+    top:30%;
+}
+.product-section-amenities-wrapper .slick-current .item-tien-ich
+{
+    background-color: #B99C7C;
+    box-shadow: 0 2px 25px 3px rgba(175,160,137,0.35);
+}
+.product-section-amenities-wrapper .title-wrapper
+{
+    width: 100%;
+    top: 20px;
+    z-index:2;
+    float:left;
+    position:absolute;
+    left: 0px;
+}
+.product-section-amenities-wrapper .title-wrapper .col-container
+{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center !important;
+}
+.product-section-amenities-wrapper .complex-title .subtitle-1
+{
+    /* left: 50%; */
+    /* margin-left: -141px; */
+    /* top: 60px; */
+    /* line-height: 122px; */
+}
+
+/*mat bang*/
+.product-section-plan-wrapper .section-header
+{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 111;
+}
+
+.product-section-plan-wrapper .section-header .complex-title .subtitle-1-wapper
+{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.product-section-plan-wrapper,
+.product-section-plan-wrapper a
+{
+    color: #FFF;
+}
+.product-section-plan-wrapper .title-wrapper
+{
+    width: 100%;
+    top: 20px;
+    z-index:2;
+    float:left;
+    position:absolute;
+    left: 0px;
+}
+.product-section-plan-wrapper .title-wrapper .col-container
+{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center !important;
+}
+.product-section-plan-wrapper .complex-title .subtitle-1
+{
+    /* left: 50%; */
+    /* margin-left: -232px; */
+    /* top: 58px; */
+    line-height: 122px;
+}
+.product-section-plan-wrapper .plan-list
+{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 9999;
+}
+
+.product-section-plan-wrapper .active-plan-title
+{
+    font-family: "Elle Futura";
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 45px;
+    text-shadow: 1px 1px 0 rgba(56,48,39,0.51);
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    padding-top: 55%;
+}
+.product-section-plan-wrapper ul.all-plan-title
+{
+    list-style: none;
+    margin: 0;
+    padding: 0px 0px 10px 0px;
+    background: url(../images/subline.png) left bottom no-repeat;
+}
+.product-section-plan-wrapper ul.all-plan-title li
+{
+    cursor: pointer;
+    display: inline-block;
+    opacity: 0.75;
+    color: #FFFFFF;
+    font-family: "Elle Futura";
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 0px;
+}
+.product-section-plan-wrapper ul.all-plan-title li:hover
+{
+    text-decoration: underline;
+}
+.product-section-plan-wrapper .all-plan-content
+{
+    position: relative;
+    /* border-top: 2px solid #C3AD8A; */
+    margin-top: 20px;
+    /* background: url(../images/subline.png) left bottom no-repeat; */
+}
+.product-section-plan-wrapper .all-plan-content .plan-content
+{
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+
+.product-section-plan-wrapper .plan-image img
+{
+    max-width: 600px;
+    height: auto;
+}
+
+.product-section-consult-wrapper .section-header
+{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 111;
+}
+.product-section-consult-wrapper .title-wrapper
+{
+    width: 100%;
+    top: 20px;
+    z-index:2;
+    float:left;
+    position:absolute;
+    left: 0px;
+}
+.product-section-consult-wrapper .title-wrapper .col-container
+{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center !important;
+}
+.product-section-consult-wrapper .complex-title .subtitle-1
+{
+    /* left: 50%; */
+    /* margin-left: -232px; */
+    /* top: 58px; */
+}
+.product-section-consult-wrapper .greeting-message
+{
+    color: #FFF;
+    font-family: "Elle Futura";
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.product-section-consult-wrapper .contact-from
+{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.product-section-consult-wrapper .contact-from label
+{
+    color: #FFF;
+}
+.product-section-consult-wrapper .contact-from input[type="text"],
+.product-section-consult-wrapper .contact-from textarea
+{
+    border-radius:0;
+    border: 1px solid #B99C7C;
+    opacity: 0.95;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px 0 rgba(185,156,124,0.25);
+    color: #000;
+}
+
+.product-section-consult-wrapper .contact-from .form-actions
+{
+    margin-top: 50px;
+}
+.product-section-consult-wrapper .contact-from .form-actions button
+{
+    width:25%;    
+    border-radius: 0;
+    font-family: "Elle Futura";
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 19px;
+    background:  #B99C7C url(../images/icon-send-21x27.png) 63% center no-repeat;
+    color: #FFF;
+}
+
+
+/*archive*/
+#main.archive .cat-name
+{
+    margin-top: 130px;
+    padding-left: 60px;
+}
+
+#main.archive .cat-name .complex-title .subtitle-1
+{
+    top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    background: url(../images/subline-archive.png) left bottom no-repeat;
+    
+    height: 100%;
+    margin-left: 55px;
+    font-size: 48px;
+
+    display: flex;
+    align-items: center;
+}
+#main.archive .subcat
+{
+    text-align: right;
+    margin-top: 57px;
+}
+#main.archive .subcat a
+{
+    color: #FFF;
+    opacity: 0.5;
+    font-family: "Elle Futura";
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;    
+    padding:0px 12px;
+}
+#main.archive .subcat ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main.archive .subcat ul li
+{
+    display: inline-block;  
+    padding: 10px 0px;
+}
+#main.archive .subcat ul li:not(:first-child) a
+{
+    border-left: #FFF 1px solid;
+}
+#main.archive .subcat ul li.active a
+{
+    opacity: 1;
+}
+#main.archive .archive-wrapper
+{
+}
+#main.archive .archive-wrapper .first-row
+{
+	box-shadow: 0 2px 35px 0 rgba(0,0,0,0.25);
+}
+#main.archive img
+{
+    width: 100%;
+    display: none;
+}
+#main.archive .article-cell
+{
+    height: 250px;
+    background: #FFF;
+    text-align: left;
+}
+
+#main.archive .article
+{
+    background-color: #FFF;
+}
+#main.archive .article.article-bottom
+{
+    position: absolute;
+    bottom: 35px;
+}
+#main.archive article
+{
+    padding-left: 25px;
+}
+#main.archive .title
+{
+    font-family: "Elle Futura";
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: left;
+}
+#main.archive .title a
+{
+    color: #404040;
+}
+#main.archive .post-date
+{
+    opacity: 0.75;
+    color: #444444;
+    font-family: "Elle Futura";
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0px 0px 0px 13px;
+    background: url(../images/icon_clock-3.png) left center no-repeat;
+}
+#main.archive .post-content
+{
+    opacity: 0.75;
+    color: #000000;
+    font-family: "Elle Futura";
+    font-size: 13px;
+    line-height: 20px;
+    padding-top:10px;
+}
+#main.archive .post-see-detail
+{
+    float: right;
+    padding-right: 15px;
+    text-decoration: underline;  
+    margin-top: -12px;
+}
+#main.archive .other-article{
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0 2px 35px 0 rgba(0,0,0,0.25);
+}
+#main.archive .other-article-1
+{
+    margin-right: 20px;
+}
+#main.archive .other-article-2
+{
+    margin: 0px 10px;
+}
+#main.archive .other-article-0
+{
+    margin-left:20px;
+}
+#main.archive .other-article-image
+{
+    height: 156px;
+}
+#main.archive .other-article-content
+{
+    background: #FFF;
+    padding: 18px 26px 20px 35px;
+}
+#main.archive .other-article-content .title
+{
+    margin-top: 0px;
+}
+#main.archive  .other-article-excerpt 
+{
+    padding-top: 10px;
+    line-height: 18px;
+}
+#main.archive .view-more
+{
+    text-align:center;
+    margin-top: 30px;
+}
+#main.archive .view-more a
+{
+	color: #FFFFFF;
+	font-family: "Elle Futura";
+	font-size: 14px;
+	line-height: 18px;
+	padding: 60px 0px;
+	text-transform: uppercase;
+}
+/*END: archive*/
+
+/*Single*/
+#main.single .fixed-info
+{
+    padding-left: 120px;
+    padding-top: 270px;
+    padding-right: 50px;
+    color: #FFF;
+}
+#main.single .fixed-info .back-link a
+{
+    color: #FFFFFF;
+    font-family: "Elle Futura";
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+
+#main.single .fixed-info .title
+{
+    color: #FFFFFF;
+    font-family: "Elle Futura";
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 45px;
+}
+#main.single .fixed-info .post-date
+{
+    color: #FFF;
+    font-family: "Elle Futura";
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0px 0px 0px 13px;
+    background: url(../images/icon_clock.png) left center no-repeat;
+}
+#main.single.single-post .post-content
+{
+    width:100%;
+    margin: 12.5% auto;
+}
+#main.single .post-content img
+{
+    max-width: 100%;
+}
+#main.single .post-content *
+{
+    max-width: 100%;
+}
+#main.single .post-content 
+{
+    color: #676767;
+    font-family: "Elle Futura";
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+#main.single.single-post .single-right .post-content 
+{
+    padding-top: 0 !important;
+}
+#main.single.single-page .post-slider .slider-button
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(137, 111, 51, 0.5) !important;
+}
+
+.page-thu-vien-slider
+{
+    width: 80%;
+    margin:0px auto;    
+}
+.autoplay.page-thu-vien-detail
+{
+    height: 420px;
+    margin-top: -30px;
+}
+.autoplay.page-thu-vien-list
+{
+    height:100px;
+}
+.page-thu-vien-slider .slider-button
+{
+    top: 50%;
+    margin-top: -23px;
+}
+.page-thu-vien-slider .slider-button-prev
+{
+    left: -40px !important;
+}
+.page-thu-vien-slider .slider-button-next
+{
+    right: -40px !important;
+}
+.page-thu-vien-slider .page-thu-vien-list .slick-current
+{
+    box-shadow: 0 2px 25px 3px rgba(175,160,137,0.35);
+    padding: 1px;
+    border: #CCC 1px solid;
+}
+/*END: Single*/
+
+
+/* Applies to all tooltips */
+[tooltip] {
+  position: relative; /* opinion 1 */
+}
+
+[tooltip]::before,
+[tooltip]::after {
+  text-transform: none; /* opinion 2 */
+  font-size: .9em; /* opinion 3 */
+  line-height: 1;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  display: none;
+  opacity: 0;
+}
+[tooltip]::before {
+  content: '';
+  border: 5px solid transparent; /* opinion 4 */
+  z-index: 1000001; /* absurdity 1 */
+}
+[tooltip]::after {
+  content: attr(tooltip); /* magic! */
+  
+  /* most of the rest of this is opinion */
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  
+  /* 
+    Let the content set the size of the tooltips 
+    but this will also keep them from being obnoxious
+    */
+  min-width: 3em;
+  max-width: 21em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 1ch 1.5ch;
+  border-radius: .3ch;
+  box-shadow: 0 1em 2em -.5em rgba(0, 0, 0, 0.35);
+  background: #333;
+  color: #fff;
+  z-index: 10000000; /* absurdity 2 */
+}
+
+/* Make the tooltips respond to hover */
+[tooltip]:hover::before,
+[tooltip]:hover::after {
+  display: block;
+}
+
+/* don't show empty tooltips */
+[tooltip='']::before,
+[tooltip='']::after {
+  display: none !important;
+}
+
+
+/* FLOW: LEFT */
+[tooltip][flow^="left"]::before {
+    top: 50%;
+    border-right-width: 0;
+    border-left-color: #333;
+    left: calc(2em - 50px);
+    transform: translate(-.5em, -10%);
+    margin-top: 7px;
+
+}
+[tooltip][flow^="left"]::after {
+    top: 50%;
+    right: calc(100% + 5px);
+    transform: translate(-.5em, -50%);
+}
+
+/* KEYFRAMES */
+@keyframes tooltips-vert {
+  to {
+    opacity: .9;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes tooltips-horz {
+  to {
+    opacity: .9;
+    transform: translate(0, -50%);
+  }
+}
+
+
+/* FX All The Things */ 
+[tooltip]:not([flow]):hover::before,
+[tooltip]:not([flow]):hover::after,
+[tooltip][flow^="up"]:hover::before,
+[tooltip][flow^="up"]:hover::after,
+[tooltip][flow^="down"]:hover::before,
+[tooltip][flow^="down"]:hover::after {
+  animation: tooltips-vert 300ms ease-out forwards;
+}
+
+[tooltip][flow^="left"]:hover::before,
+[tooltip][flow^="left"]:hover::after,
+[tooltip][flow^="right"]:hover::before,
+[tooltip][flow^="right"]:hover::after {
+  animation: tooltips-horz 300ms ease-out forwards;
+}
+
+.anh-phoi-canh{
+    width: 70%;
+    height: 70%;
+    float: none;
+    margin: 0 auto;
+}
+
+.phoi-canh-3d .slider-button.slider-button-prev.slick-arrow {
+    left: 10% !important;
+}
+
+.phoi-canh-3d .slider-button.slider-button-next.slick-arrow {
+    right: 10% !important;
+}
+
+.quote {
+    display: block;
+    width: 600px;
+    vertical-align: middle;
+    color: #fff;
+    padding: 15px;
+    background: rgba(175, 146, 102, 0.72);
+    text-shadow: 1px 3px 3px #d4ad71;
+    margin-left: 250px;
+    margin-top: 200px;
+    font-weight: 300;
+    font-family: "Elle Futura";
+}
