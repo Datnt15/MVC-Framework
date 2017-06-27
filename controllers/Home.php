@@ -10,9 +10,12 @@ class Home extends Controller
 	// 	parent::__construct();
 	// }
 
-	protected function index(){
+	public function index(){
 		$this->load_model("home_model");
-		$this->home_model->index();
+		// $this->home_model->index();
+		$title = "Home Page";
+		$this->load_view('home', $title);
+
 		// echo "index of home controller";
 	}
 }
